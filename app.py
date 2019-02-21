@@ -1,6 +1,8 @@
 import datetime
 import os
 
+import json
+
 from flask import Flask, render_template, redirect, url_for
 from forms import ItemForm
 from models import Items
@@ -26,7 +28,18 @@ def success():
     qry = db_session.query(Items)
     results = qry.all()
 
-    return str(results)
+    items_list = []
+
+    for result in results:
+        item = {
+            'Name': result.name,
+            'Quantity': resutl.quantity,
+            'Description': result.description,
+            'Date Added': str(result.date_added)
+        }
+        items_list.append(item)
+
+    return json.dumps(items_list)
   
 
 if __name__ == '__main__':
