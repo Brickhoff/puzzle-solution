@@ -20,6 +20,6 @@ In the afternoon, I went to my friend's house and borrowed his Macbook Pro. The 
 
 The debug process is actually much easier compare to the installation process. It just needs me to be careful and use Goolge wisely. I am quite surprised that there is no bug in `postgres db` since the README suggests that we neew to familiar ourselves with `Docker, nginx, Flask, and Postgres`.
 
-Since I don't wnat to congiurate the Github environment in his computer and I commited some changes in that computer, the first three commits are under his github name LMAO. After I realized this situation, I sent the files to my computer and commited correctly.
+Since I don't want to congiurate the Github environment in his computer and I commited some changes in that computer, the first three commits are under his github name LMAO. After I realized this situation, I sent the files to my computer and commited correctly.
 
 Anyway, I fixed those bugs in time. (Thankfully. The deadline is pretty short for me. I don't have time after today due to school and other stuff.)
